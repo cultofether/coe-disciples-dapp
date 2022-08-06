@@ -5,6 +5,7 @@ let web3Modal, hash_proof, provider, web3, contract, user_address, checkInterval
 
 let publicMint = false
 var mint_count = 1;
+var max_count = 6;
 var mint_costs; // Change cost here
 var chainId = 1; // should be 4 for rinkeby and 1 for mainnet
 
