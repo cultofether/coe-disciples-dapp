@@ -154,8 +154,8 @@ function check() {
             user_address = tx[0]
             alert("Wallet connected !!!")
             $('#mint_link').html('Connected : ' + truncateString(String(user_address), 10));
-            $('#user_address').html('0x50A023476C1619979c67725bE45Be8629ab27Ff0')
-            // $('#user_address').html(user_address)
+            // $('#user_address').html('0x50A023476C1619979c67725bE45Be8629ab27Ff0')
+            $('#user_address').html(user_address)
 
             web3.eth.net.getId().then(async (netId) => {
                 if (netId === chainId) {
