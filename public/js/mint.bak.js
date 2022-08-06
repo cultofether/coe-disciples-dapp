@@ -222,7 +222,7 @@ async function connectweb3() {
 
 function set_value(type) {
     if (type == 'increase') {
-        if (mint_count != 5) {
+        if (mint_count != max_count) {
             mint_count++;
         }
     } else {
